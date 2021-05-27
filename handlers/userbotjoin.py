@@ -39,7 +39,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "GoodVibeesMusic"
+        user.first_name =  "MisakiMusic"
 
     try:
         await USER.join_chat(invitelink)
@@ -53,7 +53,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Taşkın Hata bekleyin 🛑 \n Kullanıcı {user.first_name} userbot için katılma isteklerini nedeniyle ağır şekilde gruba katılmak emin kullanıcı grubunda yasaklı olmadığından emin olun olamazdı! Make sure user is not banned in group."
-            "\n\nVeya @GoodVibeesMusic'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+            "\n\nVeya @MisakiDJbot'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
         )
         return
     await message.reply_text(
