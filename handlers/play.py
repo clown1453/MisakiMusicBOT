@@ -1,18 +1,4 @@
-# ZauteMusic (Telegram bot project)
-# Copyright (C) 2021  ZauteKm 
-
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#MisakiDev | ByMisakiMey
 
 
 from os import path
@@ -453,7 +439,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @GoodVibeesMusic'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @MisakiDJbot'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -601,7 +587,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @GoodVibeesMusic'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @MisakiUserBOt'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -628,7 +614,7 @@ async def deezer(client: Client, message_: Message):
         url = r[0]["url"]
     except:
         await res.edit(
-            "Kelimenin Tam Anlamıyla Hiçbir Şey Bulunamadı, Kürtçenin Üzerinde Çalışmalısınız!"
+            "Hiçbişey bulamadım usta.."
         )
         is_playing = False
         return
@@ -701,7 +687,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "GoodVibeesMusic"
+        user.first_name =  "MisakiMusic"
     usar = user
     wew = usar.id
     try:
@@ -731,7 +717,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @GoodVibeesMusic'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @MisakiUserBot'u Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -761,7 +747,7 @@ async def jiosaavn(client: Client, message_: Message):
         sduration = int(r[0]["duration"])
     except Exception as e:
         await res.edit(
-            "Kelimenin Tam Anlamıyla Hiçbir Şey Bulunamadı! İngilizceniz Üzerinde Çalışmalısınız."
+            "Ne demek istedini anlamadım bilader..."
         )
         print(str(e))
         is_playing = False
@@ -799,12 +785,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"♪ Good Vibes Music ♪=#️⃣ {position} konumunda sıraya alındı",
+            caption=f"♪ MisakiMusic ♪=#️⃣ {position} konumunda sıraya alındı",
         
         )           
            
     else:
-        await res.edit_text("♪ Good Vibes Music ♪=▶️ Çalıyor .....")
+        await res.edit_text("♪ MisakiMusic ♪=▶️ Çalıyor .....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
