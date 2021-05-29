@@ -1,11 +1,11 @@
-<h1 align="centre">GoodVibesMusic 🎵</h1>
+<h1 align="centre">MisakiMusic 🎵</h1>
 
 ### Telegram grubunun sesli Sohbetinde müzik çalabilen bir bot
 
-### Bu music botunun 2. sürümü [GoodVibesMusic]
+### Bu music botunun 1. Versionu [MisakiMusic]
 
 <p align="center">
-  <img src="https://telegra.ph/file/810ec0867be11dd1ed348.png">
+  <img src="">
 </p>
 
 
@@ -14,18 +14,18 @@
 Heroku'ya dağıtmaya tıklamadan önce çatalı ve hemen altındaki yıldıza tıklayın.
 
 <p align="center">
-  <a href="https://github.com/matesa/GoodVibesMusic/fork">
-    <img src="https://img.shields.io/github/forks/matesa/GoodVibesMusic?label=Fork&style=social">
+  <a href="https://github.com/ByMisakiMey/MisakiMusicBot/fork">
+    <img src="https://img.shields.io/github/forks/ByMisakiMey/MisakiMusicBot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/matesa/GoodVibesMusic">
-    <img src="https://img.shields.io/github/stars/matesa/GoodVibesMusic?style=social">
+  <a href="https://github.com/matesa/MisakiMusicBot">
+    <img src="https://img.shields.io/github/stars/ByMisakiMey/MisakiMusicBot?style=social">
   </a>
 </p>
 
 ### Deploy To Heroku</h4>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/matesa/GoodVibesMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ByMisakiMey/MisakiMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 
 
