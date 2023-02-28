@@ -22,11 +22,11 @@ from dotenv import load_dotenv
 load_dotenv()
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME")
+BOT_TOKEN = getenv("5658502641:AAFg_0wViDGxf1h2JolViCOSfHfZk2Sd0K0")
+BOT_NAME = getenv("NurlanMusic")
 admins = {}
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("1225523"))
+API_HASH = getenv("ec0ae6e668e4eaa669c536acf13c9f59")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 
